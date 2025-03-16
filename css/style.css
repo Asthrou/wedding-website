@@ -247,6 +247,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   border-radius: 7px;
+  margin-bottom: 50px;
 }
 .fh5co-video a {
   z-index: 1001;
@@ -357,7 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 100%;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -833,7 +834,7 @@ form label {
 .fh5co-cover .display-tc {
   display: table-cell !important;
   vertical-align: middle;
-  padding-top: 130px;
+  padding-top: 220px;
 }
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h1,
@@ -882,11 +883,12 @@ form label {
   }
 }
 #fh5co-header .display-tc .btn,
+#fh5co-rsvp .display-tc .btn,
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 20px 20px;
-  background: #fff !important;
-  color: #646464;
+  background: #828282 !important;
+  color: #fff;
   border: none !important;
   font-size: 16px;
   font-family: Sofia Sans Condensed;
@@ -958,6 +960,8 @@ form label {
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
+#fh5co-rsvp,
+#fh5co-story,
 .fh5co-section {
   padding: 7em 0;
   clear: both;
@@ -971,6 +975,8 @@ form label {
   #fh5co-couple-story,
   #fh5co-couple,
   #fh5co-gallery,
+  #fh5co-rsvp,
+  #fh5co-story,
   .fh5co-section {
     padding: 3em 0;
   }
@@ -1801,6 +1807,15 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.nav-pills>li.active>a:focus
+{
+  background-color: gray;
+}
+.nav-pills>li.active>a
+{
+  background-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */
